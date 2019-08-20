@@ -26,3 +26,4 @@
     - metrics-fix
     - networking
     - monitoring
+    - argocd

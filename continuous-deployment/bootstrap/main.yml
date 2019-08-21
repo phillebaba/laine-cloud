@@ -8,7 +8,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/phillebaba/laine-cloud.git
-    targetRevision: HEAD
+    targetRevision: feature/argo-cd
     path: continuous-deployment/monitoring
   destination:
     server: https://kubernetes.default.svc

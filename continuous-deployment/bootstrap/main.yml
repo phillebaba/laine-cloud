@@ -7,7 +7,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/argoproj/argocd-example-apps.git
+    repoURL: https://github.com/phillebaba/laine-cloud.git
     targetRevision: HEAD
     path: continuous-deployment/monitoring
   destination:

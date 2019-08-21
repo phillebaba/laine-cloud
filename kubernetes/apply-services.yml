@@ -25,5 +25,4 @@
     - nfs
     - metrics-fix
     - networking
-    - monitoring
     - argocd

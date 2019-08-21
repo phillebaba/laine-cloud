@@ -8,7 +8,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/argoproj/argocd-example-apps.git
-    targetRevision: feature/argo-cd
+    targetRevision: HEAD
     path: continuous-deployment/monitoring
   destination:
     server: https://kubernetes.default.svc

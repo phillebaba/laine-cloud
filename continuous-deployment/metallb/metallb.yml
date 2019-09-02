@@ -285,11 +285,11 @@ metadata:
 data:
   config: |
     peers:
-    - peer-address: {{ metallb_peer }}
-      peer-asn: {{ metallb_peer_asn }}
-      my-asn: {{ metallb_my_asn }}
+    - peer-address: 192.168.1.1
+      peer-asn: 64512
+      my-asn: 64513
     address-pools:
     - name: default
       protocol: bgp
       addresses:
-      - {{ metallb_cidr }}
+      - 192.168.2.10/24

@@ -33,6 +33,7 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: traefik-ingress-controller
+  namespace: ingress
 ---
 apiVersion: v1
 kind: ServiceAccount

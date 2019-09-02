@@ -60,7 +60,7 @@ resources:
 - exporter/node-exporter-service.yaml
 - kube-state-metrics/kube-state-metrics-clusterRoleBinding.yaml
 - kube-state-metrics/kube-state-metrics-clusterRole.yaml
-- kube-state-metrics/kube-state-metrics-deployment.yaml
+#- kube-state-metrics/kube-state-metrics-deployment.yaml
 - kube-state-metrics/kube-state-metrics-roleBinding.yaml
 - kube-state-metrics/kube-state-metrics-role.yaml
 - kube-state-metrics/kube-state-metrics-serviceAccount.yaml

@@ -1,3 +1,7 @@
 resources:
 - ../base
-namePrefix: private-
+nameSuffix: -private
+configMapGenerator:
+- name: traefik-conf
+  files:
+    - traefik.toml

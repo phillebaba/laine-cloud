@@ -292,4 +292,4 @@ data:
     - name: default
       protocol: bgp
       addresses:
-      - 192.168.2.10/24
+      - 192.168.2.1/24

@@ -2,14 +2,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: ingress
+  name: traefik-private
   namespace: argocd
 spec:
   project: default
   source:
     repoURL: https://github.com/phillebaba/laine-cloud.git
     targetRevision: feature/argo-cd
-    path: continuous-deployment/ingress
+    path: continuous-deployment/traefik
   destination:
     server: https://kubernetes.default.svc
     namespace: ingress

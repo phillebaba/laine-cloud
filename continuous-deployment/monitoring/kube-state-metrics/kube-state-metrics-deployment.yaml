@@ -59,10 +59,10 @@ spec:
         name: kube-state-metrics
         ports:
         - containerPort: 8443
-          targetPort: 8081
+          port: 8081
           name: https-main
         - containerPort: 9443
-          targetPort: 8082
+          port: 8082
           name: https-self
         resources:
           limits:

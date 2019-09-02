@@ -132,7 +132,6 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: controller
-  namespace: ingress
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
@@ -147,7 +146,6 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: speaker
-  namespace: ingress
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding

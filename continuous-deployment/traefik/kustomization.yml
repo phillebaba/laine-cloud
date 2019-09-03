@@ -1,4 +1,4 @@
 resources:
 - private
-- public
+#- public
 namespace: ingress

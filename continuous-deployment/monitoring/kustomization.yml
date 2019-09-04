@@ -1,0 +1,7 @@
+resources:
+  - operator
+  - prometheus
+  - alertmanager
+  - grafana
+  - exporter
+  - kube-state-metrics

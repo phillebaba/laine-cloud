@@ -1,0 +1,10 @@
+resources:
+  - grafana-config.yaml
+  - grafana-ingress.yaml
+  - grafana-dashboardDatasources.yaml
+  - grafana-serviceAccount.yaml
+  - grafana-dashboardDefinitions.yaml
+  - grafana-serviceMonitor.yaml
+  - grafana-dashboardSources.yaml
+  - grafana-service.yaml
+  - grafana-deployment.yaml

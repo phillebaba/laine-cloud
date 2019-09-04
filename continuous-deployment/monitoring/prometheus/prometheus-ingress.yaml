@@ -12,5 +12,5 @@ spec:
       - path: /
         backend:
           serviceName: prometheus-k8s
-          servicePort: 9090
+          servicePort: web
 

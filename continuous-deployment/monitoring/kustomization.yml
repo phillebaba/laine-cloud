@@ -3,5 +3,6 @@ resources:
   - prometheus
   - alertmanager
   - grafana
-  - exporter
+  - node-exporter
+  - armexporter
   - kube-state-metrics

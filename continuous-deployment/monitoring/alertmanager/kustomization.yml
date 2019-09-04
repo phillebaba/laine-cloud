@@ -1,7 +1,7 @@
 resources:
-  - alertmanager-alertmanager.yaml
-  - alertmanager-ingress.yaml
-  - alertmanager-secret.yaml
-  - alertmanager-serviceAccount.yaml
-  - alertmanager-serviceMonitor.yaml
-  - alertmanager-service.yaml
+  - alertmanager.yaml
+  - ingress.yaml
+  - secret.yaml
+  - serviceAccount.yaml
+  - serviceMonitor.yaml
+  - service.yaml
